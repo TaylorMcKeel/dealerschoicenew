@@ -1,0 +1,33 @@
+{
+  "name": "dealerschoicenew",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.6",
+    "pg": "^8.5.1",
+    "sequelize": "^6.3.5",
+    "webpack-cli": "^4.2.0",
+    "webpack": "^5.6.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build": "webpack",
+    "build:dev": "webpack --mode=development --watch",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "npm run build:dev & nodemon server --ignore src/ --ignore dist/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/josephmckeel/dealerschoicenew.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/josephmckeel/dealerschoicenew/issues"
+  },
+  "homepage": "https://github.com/josephmckeel/dealerschoicenew#readme"
+}
